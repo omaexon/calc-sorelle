@@ -1,0 +1,115 @@
+
+  * {
+    font-family: 'Ubuntu', sans-serif;
+       
+    }
+
+
+#cabecalho {
+    background:#ffd000 ;
+    text-align: center;
+   
+    width: 948px;
+    height: 40px;
+    margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+}
+
+#val1 {
+    height: 30px;
+        width: 300px; 
+    border-radius: 20px;
+    margin-left: 105px;
+    outline: none;
+}
+
+#sinal {
+    background: #FFFFFF;
+        border: 1px solid #BBBBBB;
+        border-radius: 20px;
+        height: 35px;
+        width: 313px; 
+        margin-left: 20px;
+        
+    outline: none;
+    }
+
+#caixaprincipal {
+    background: #98ff98;
+        width: 900px;
+        height: 400px;
+        padding:24px;
+        margin-left: auto;
+        margin-right: auto;
+text-align: center;
+
+}
+
+#val2 
+{
+    outline: none;
+border-radius: 25px;
+width: 300px;
+height: 30px;
+margin-left: 10px;
+}
+
+#result
+{
+    
+width: 300px;
+height: 30px;
+border-radius: 25px;
+margin-left: 160px;
+outline: none;
+}
+
+#button
+{
+    width: 30px;
+height: 30px;
+border-radius: 25px;
+margin-left: 150px;
+cursor:pointer;
+
+}
+
+#paragrafo-obs
+{
+  padding: 25px;
+    width: 180px;
+    height: 70px;
+    font-size: 16px;
+    border: 5px solid coral;
+}
+
+#texto-option
+{
+font-weight: bold;
+}
+
+
+#obs{
+    padding: 1px;
+    width: 200px;
+ height: 300px;
+    margin-right: 800px;
+    display: inline-block;
+}
+
+#img
+{
+    transform: translate(10%,-100%);
+    
+    margin-left: 800px;
+    margin-bottom: 100px;
+}
+
+
+
+body
+{
+    background-color: rgb(80, 24, 24);
+}
+

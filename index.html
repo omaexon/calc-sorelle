@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> CALCULADORA DO CONSIGNADO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="stylecalculo.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <div id="cabecalho">
+        <h1> CALCULADORA SORELLECRED</h1>
+
+    </div>
+
+
+    <div id="caixaprincipal">
+
+        <b>TIPO DE CÁLCULO:</b><select name="sinal" id="sinal">
+            <div id="texto-option">
+                <option value="+">RENDA</option>
+                <option value="-">PARCELA</option>
+                <option value="*">V.LIBERADO</option>
+            </div>
+        </select>
+
+
+
+        <p id="val11"> VALOR: <Input type="text" name="val1" id="val1"></p>
+
+
+
+
+        <p> DIREITO DO CLIENTE:<Input type="text" placeholder="                     MARGEM(%) ou COEF." name="val2"
+                id="val2">
+        </p>
+        <p> <Input type="button" value="=" onclick="calcular();" id="button"></p>
+        <p> <Input type="text" name="result" id="result"></p>
+
+        <div id="obs">
+
+            <p id="paragrafo-obs">
+                <b>OBSERVAÇÃO:</b> NA HORA DO CÁLCULO USAR "." AO INVÉS DE ","
+            </p>
+            <div>
+
+
+                <div id="img"><img src="./images/logo sorellecred editada.png"></div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <script src="./jscalculo.js"></script>
+
+
+
+
+
+</body>
+
+
+
+</html>
